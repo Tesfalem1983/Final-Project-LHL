@@ -9,7 +9,7 @@
 
 - The existing telemarketing strategy yields a mere 11.6% conversion rate, leading to resource wastage, negative customer perception, and employee dissatisfaction. The project addresses these challenges and enhances the bank's marketing efforts. Right now from what can be quantified, 108,359 calls with a total duration of 8,440,438 seconds(2345 hours) have been spent unsubscribing clients.
 
-![Alt text](Calls_Duration_Unsubscribing_Customers.png)
+![Alt text](Images/Calls_Duration_Unsubscribing_Customers.png)
 
 ## Project Description
 
@@ -38,11 +38,11 @@
 - Pdays (Days since last contact): Ranges from -1 to 871, with an average of 40 days.
 - Previous (previous calls to the client): Ranges from 0 to 275, with an average of 0.58.
 
-![Alt text](Subscription_Across_Ages.png)
+![Alt text](Images/Subscription_Across_Ages.png)
 
-![Alt text](Subscription_AVG_Balance.png)
+![Alt text](Images/Subscription_AVG_Balance.png)
 
-![Alt text](Subscription_Vs_Campaign.png)
+![Alt text](Images/Subscription_Vs_Campaign.png)
 
 ### Categorical Columns:
 
@@ -51,11 +51,12 @@
 - 51% have secondary education.
 - 98% do not have default credit.
 - 88% did not subscribe to the term deposit.
-![Alt text](Edcuation_Jobs_Subscription.png)
 
-![Alt text](Job_types_Distribution.png)
+![Alt text](Images/Edcuation_Jobs_Subscription.png)
 
-![Alt text](<Marital _Status_Subscriptions.png>)
+![Alt text](Images/Job_types_Distribution.png)
+
+![Alt text](<Images/Marital _Status_Subscriptions.png>)
 
 ## Model Training & Evaluation Summary
 
