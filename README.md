@@ -9,7 +9,7 @@
 
 - The existing telemarketing strategy yields a mere 11.6% conversion rate, leading to resource wastage, negative customer perception, and employee dissatisfaction. The project seeks to address these challenges and enhance the bank's marketing efforts. Right now from what can be quantified 108,359 calls that have a total duration of 8,440,438 seconds(2345 hours) has been spent for unsubscribing clients.
 
-![Alt text](<Calls & Duration(In seconds) -Unsubscribing Customers.png>)
+![Alt text](Calls & Duration(In seconds) -Unsubscribing Customers.png)
 
 ## Project Description
 
