@@ -7,7 +7,7 @@
 
 ## Problem Identified
 
-- The existing telemarketing strategy yields a mere 11.6% conversion rate, leading to resource wastage, negative customer perception, and employee dissatisfaction. The project seeks to address these challenges and enhance the bank's marketing efforts. Right now from what can be quantified 108,359 calls that have a total duration of 8,440,438 seconds(2345 hours) has been spent for unsubscribing clients.
+- The existing telemarketing strategy yields a mere 11.6% conversion rate, leading to resource wastage, negative customer perception, and employee dissatisfaction. The project addresses these challenges and enhances the bank's marketing efforts. Right now from what can be quantified, 108,359 calls with a total duration of 8,440,438 seconds(2345 hours) have been spent unsubscribing clients.
 
 ![Alt text](Calls_Duration_Unsubscribing_Customers.png)
 
@@ -25,7 +25,7 @@
 - Model Training: Utilize a Random Forest Classifier to train the predictive model.
 - Model Evaluation: Assess model performance using appropriate evaluation metrics.
 - Findings and Visualizations: Visualize insights from the dataset and the trained model.
-- Business Implications: Analyze how the optimized marketing strategy can positively impact the bank's goals.
+- Business Implications: Analyze how the optimized marketing strategy can impact the bank's goals positively.
 - Challenges: Discuss any challenges encountered during the project.
 - Visual Glance of the Dataset
 
