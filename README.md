@@ -5,11 +5,16 @@
 
 - In this final school project, I delve into the domain of marketing optimization by leveraging machine learning techniques to predict customer subscriptions for a Portuguese banking institution. The project aims to tackle the issue of ineffective telemarketing campaigns with a low conversion rate and devise a targeted strategy for better results.
 
+### Dataset Description
+- Our dataset contains approximately 43,000 instances of customer records, comprising 17 attributes ranging from customer balance, housing mortgage status, credit defaults, loans, education levels, job positions, the number and duration of the campaign calls, all the way to the final customer decision.
+
 ## Problem Identified
 
-- The existing telemarketing strategy yields a mere 11.6% conversion rate, leading to resource wastage, negative customer perception, and employee dissatisfaction. The project addresses these challenges and enhances the bank's marketing efforts. Right now from what can be quantified, 108,359 calls with a total duration of 8,440,438 seconds(2345 hours) have been spent unsubscribing clients.
+- The existing telemarketing strategy yields a mere 11.6% conversion rate, leading to resource wastage, negative customer perception, and employee dissatisfaction. The project addresses these challenges and enhances the bank's marketing efforts. Right now from what can be quantified, 108,359 calls with a total duration of 8,440,438 seconds(2345 hours) on clients who decided not to accept the offer to subscribe to the the long term offer.
 
-![Alt text](Images/Calls_Duration_Unsubscribing_Customers.png)
+![Alt text](<Images/Call Duration(in Minutes) Vs Subscription.png>)
+
+![Alt text](<Images/Calls Vs Subscription.png>)
 
 ## Project Description
 
@@ -58,16 +63,23 @@
 
 ![Alt text](<Images/Marital _Status_Subscriptions.png>)
 
+## Problems in Dataset that were dealt:
+
+- Skewed Distribution in allmost all numerical attributes except age. 
+
+- Class imbalance in the target variable which is subscription and was handled within Random Forest Classification model.
+
+
 ## Model Training & Evaluation Summary
 
-- Addressed class imbalance within the Random Forest model.
-- Achieved approximately 89% accuracy on test data.
+- The model was able to generalize with **89.38%** accuracy at first on the test data.
+- Hyperparameter tunning applied and has slightly improved the accuracy to **89.70%**
+
+![Alt text](Images/Accuracy_value.png)
+
 
 ## Business Implications
-
-- Resource savings through reduced call volume and duration.
-- Improved customer perception and brand image.
-- Enhanced employee motivation and job satisfaction.
+- In the past, the bank's telemarketing campaign achieved a subscription rate of approximately **1 out of 12 clients (roughly 11.62%)**. Now, with an **89%** predictive accuracy, we can strategically target potential customers likely to subscribe, leading to an anticipated subscription rate of about **9 out of 10 clients (around 89%)**. This transformation is expected to yield several positive outcomes for the business, including increased return on investment, minimized opportunity costs, optimized resource allocation, boosted employee morale, and an enhanced customer image and brand perception.
 
 
 
