@@ -10,7 +10,7 @@
 
 ## Problem Identified
 
-- The existing telemarketing strategy yields a mere 11.6% conversion rate, leading to resource wastage, negative customer perception, and employee dissatisfaction. The project addresses these challenges and enhances the bank's marketing efforts. Right now from what can be quantified, 108,359 calls with a total duration of 8,440,438 seconds(2345 hours) on clients who decided not to accept the offer to subscribe to the the long term offer.
+- The existing telemarketing strategy yields a mere 11.6% conversion rate, leading to resource wastage, negative customer perception, and employee dissatisfaction. The project addresses these challenges and enhances the bank's marketing efforts. Currently, in measurable terms, a significant number of calls—108,359 in total—amounting to 8,440,438 seconds (equivalent to 2345 hours/140,674 minutes) have been spent on clients who declined the opportunity to subscribe to the long-term offer.
 
 ![Alt text](<Images/Call Duration(in Minutes) Vs Subscription.png>)
 
@@ -18,7 +18,9 @@
 
 ## Project Description
 
-- The core objective of this project is to develop a predictive model that identifies customers likely to subscribe to a term deposit. By deploying this model, the bank can implement a targeted telemarketing strategy, leading to increased success rates, resource savings, improved return on investment, positive brand perception, and enhanced employee morale.
+- The central aim of this project is to construct a predictive model capable of recognizing customers with a high likelihood of subscribing to a term deposit. The significance of achieving a heightened prediction accuracy cannot be overstated—it empowers us to channel our telemarketing endeavors towards those customers who are most inclined to subscribe. This achievement holds the potential to bring about a notable transformation.
+
+- Through the utilization of this model, the bank can introduce a precisely targeted telemarketing approach, resulting in elevated success rates, efficient resource allocation, heightened return on investment, favorable brand reputation, and a boost in employee morale.
 
 ## Project Workflow
 
@@ -33,6 +35,9 @@
 - Business Implications: Analyze how the optimized marketing strategy can impact the bank's goals positively.
 - Challenges: Discuss any challenges encountered during the project.
 - Visual Glance of the Dataset
+
+## Summary of Major steps:
+- We utilized a diverse set of tools such as Python, pandas, NumPy, matplotlib, seaborn, tableau, Scikit-learn, and SciPy. In the course of these efforts, we meticulously cleaned the data, eliminated extraneous attributes, standardized data for improved efficiency, tackled class imbalance within subscription instances, and implemented scaling techniques. This comprehensive approach was taken to establish a robust and solid groundwork for our model's construction.
 
 ### Summary of observations in numerical Columns:
 
@@ -63,7 +68,7 @@
 
 ![Alt text](<Images/Marital _Status_Subscriptions.png>)
 
-## Problems in Dataset that were dealt:
+## Major Problems in Dataset that were dealt:
 
 - Skewed Distribution in allmost all numerical attributes except age. 
 
@@ -80,6 +85,19 @@
 
 ## Business Implications
 - In the past, the bank's telemarketing campaign achieved a subscription rate of approximately **1 out of 12 clients (roughly 11.62%)**. Now, with an **89%** predictive accuracy, we can strategically target potential customers likely to subscribe, leading to an anticipated subscription rate of about **9 out of 10 clients (around 89%)**. This transformation is expected to yield several positive outcomes for the business, including increased return on investment, minimized opportunity costs, optimized resource allocation, boosted employee morale, and an enhanced customer image and brand perception.
+
+- This project exemplifies the power of data-driven decision-making and predictive modeling in transforming not only our marketing strategy but the entire trajectory of our business. Thank you for you taking the time to see the presentation.
+
+
+## Challenges 
+- The normalization of the data presented a challenge due to the presence of zero and negative values, which hold crucial significance in this context and cannot be substituted with the mean or omitted. This necessitated the exploration of an advanced transformation technique, which exceeded the scope of our curriculum. Eventually, I uncovered the "Yeo-Johnson" transformation method, specifically designed to normalize datasets containing zero and negative values.
+
+- There was a constraint in pursuing an extensive number of iterations for hyperparameter tuning due to computational limitations.
+
+## Future Plans:
+
+- Investigate supplementary attributes that exert an influence on our predictions and incorporate them into our dataset.
+- Contemplate the potential deployment of the model.
 
 
 
